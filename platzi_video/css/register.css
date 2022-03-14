@@ -65,6 +65,72 @@ main{
     font-size: 1.5rem;
     outline: none;
 }
+.button{
+    width: 160px;
+    margin: 0 auto;
+    padding: 14px 32px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #001F3F;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #a4b4ce;
+}
+.login__container a {
+    align-self: center;
+    font-size: 1.5rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer {    
+    width: 100%;
+    height: 87px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+footer a {
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+    min-height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+}
+.login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    min-height: 710px;
+    padding: 80px 40px 50px;
+    border-radius: 30px;
+    /* background: #92a7c8; */
+    box-shadow:  22px 22px 44px #72829c,
+             -22px -22px 44px #b2ccf4;
+}
+.login__container h2{
+    font-size: 3rem;
+}
+.login__container--form{
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid #001F3F;
+    margin-bottom: 30px;
+    padding: 0 20px 15px;
+    font-size: 1.5rem;
+    outline: none;
+}
 button{
     width: 60%;
     height: 45px;
